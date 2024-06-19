@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "webAppName": {
+      "value": "crud-01"
+    },
+    "appServicePlanName": {
+      "value": "ASP-GitHubCopilotChallenges-bd1d (S1: 1)"
+    },
+    "sku": {
+      "value": "F1"
+    },
+    "location": {
+      "value": "Japan East"
+    },
+    "environment": {
+      "value": "production"
+    }
+  }
+}
